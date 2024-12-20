@@ -18,9 +18,9 @@ python train_inversion.py
 ```
 
 ## Acknowledgement
-The official implementation on FaceScrub and CelebA datasets: [adversarial-model-inversion](https://github.com/yziqi/adversarial-model-inversion)
+The official implementation on FaceScrub and CelebA datasets: [GitHub: adversarial-model-inversion](https://github.com/yziqi/adversarial-model-inversion)
 
-The PyTorch implementation of the paper "(2022 TDSC) Boosting Model Inversion Attacks with Adversarial Examples": [Adversarial_Augmentation](https://github.com/ncepuzs/Adversarial_Augmentation)
+The PyTorch implementation of the paper "(2023 TDSC) Boosting Model Inversion Attacks with Adversarial Examples": [GitHub: Adversarial_Augmentation](https://github.com/ncepuzs/Adversarial_Augmentation)
 
 ## Citation
 ```
