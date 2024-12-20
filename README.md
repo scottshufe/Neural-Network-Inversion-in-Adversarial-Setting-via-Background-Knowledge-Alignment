@@ -1,8 +1,8 @@
 # Neural Network Inversion in Adversarial Setting via Background Knowledge Alignment
- Implementation of (2019 CCS) Neural Network Inversion in Adversarial Setting via Background Knowledge Alignment
+The PyTorch implementation of (2019 CCS) Neural Network Inversion in Adversarial Setting via Background Knowledge Alignment
  
 ## Data
-Both the target classifier and the inversion model are trained on the MNIST dataset. The overall data is firstly splitted into Train(50%)/Test(50%) set for the target classifier, and then 50% of Test data are used to train the inversion model.
+Both the target classifier and the inversion model are trained on the MNIST dataset. The overall data is firstly splitted into Train (50%) / Test (50%) set for the target classifier, and then 50% of Test data are used to train the inversion model.
 
 The data are resized to 32 × 32 as the authors did in the article.
 
@@ -19,6 +19,7 @@ python train_inversion.py
 
 ## Acknowledgement
 The official implementation on FaceScrub and CelebA datasets: [adversarial-model-inversion](https://github.com/yziqi/adversarial-model-inversion)
+
 The PyTorch implementation of the paper "(2022 TDSC) Boosting Model Inversion Attacks with Adversarial Examples": [Adversarial_Augmentation](https://github.com/ncepuzs/Adversarial_Augmentation)
 
 ## Citation
